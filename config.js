@@ -69,7 +69,7 @@ const CONFIG = {
     },
     {
       type: "chatbox",
-      message: "Here comes your lil surprise",
+      message: "Here comes your lil surprise..",
     
       buttonText: "Click",
     },
