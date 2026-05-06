@@ -27,15 +27,15 @@
 
 const CONFIG = {
   // ── Recipient Info ────────────────────────────────────────────
-  name: "Irene",
-  photo: "./img/irene.jpg",       // Place your photo in the img/ folder
-  music: "./music/hbd.mpeg",      // Place your music in the music/ folder
+  name: "John Favour",
+  photo: "./img/Favour.jpg",       // Place your photo in the img/ folder
+  music: "./music/Happy Birthday Song in Japanese [お誕生日のうた].mp3",      // Place your music in the music/ folder
 
   // ── Theme Colors ──────────────────────────────────────────────
   // A toggle button lets the viewer switch between dark & light mode.
   colors: {
-    primary: "#f472b6",           // Main accent color (rose pink)
-    accent: "#60a5fa",            // Secondary accent color (sky blue)
+    primary: "#7B3F00",           // Main accent color (rose pink)
+    accent: "#D2691E",            // Secondary accent color (sky blue)
     dark: {
       background: "#0f172a",      // Slate 900
       text: "#f1f5f9",            // Slate 100
@@ -55,8 +55,8 @@ const CONFIG = {
   sections: [
     {
       type: "greeting",
-      title: "Hi",
-      subtitle: "I really like your name btw!",
+      title: "Hi.",
+      subtitle: "I know you didn't expect this.",
     },
     {
       type: "countdown",
@@ -65,46 +65,46 @@ const CONFIG = {
     },
     {
       type: "announcement",
-      text: "It's your birthday!! :D",
+      text: "I caught you smiling.",
     },
     {
       type: "chatbox",
-      message:
-        "Happy birthday to youu!! Wishing you a wonderful year ahead filled with joy, love, and endless happiness!",
-      buttonText: "Send",
+      message: "Here comes your lil surprise",
+    
+      buttonText: "Click",
     },
     {
       type: "ideas",
       lines: [
-        "That's what I was going to do.",
-        "But then I stopped.",
-        "I realised, I wanted to do something <strong>special</strong>.",
-        "Because,",
-        "You are Special <span>:)</span>",
+        "Thought that's what its gonna be.",
+        "But rather than that.",
+        "I ought to consider something out of <strong>complexity</strong>",
+        "Because",
+        "You are more than your doubt <span></span>",
       ],
       bigLetters: "SO",
     },
     {
       type: "quote",
-      text: "The more you praise and celebrate your life, the more there is in life to celebrate.",
-      author: "Oprah Winfrey",
+      text: "The North Star is exactly in its place for you.",
+      author: "Ryuichi",
+    },
+    {
+      type: "solar system",
+      count: 10,
     },
     {
       type: "stars",
-      count: 40,
-    },
-    {
-      type: "balloons",
-      count: 25,
+      count: 100,
     },
     {
       type: "profile",
-      wishTitle: "Happy Birthday!",
-      wishText: "May the js.prototypes always be with you! ;)",
+      wishTitle: "Happy Birthday.",
+      wishText: "Should you never lose yourself.",
     },
     {
       type: "fireworks",
-      count: 24,
+      count: 16,
     },
     {
       type: "confetti",
@@ -112,8 +112,8 @@ const CONFIG = {
     },
     {
       type: "closing",
-      text: "Okay, now come back and tell me if you liked it.",
-      replayText: "Or click, if you want to watch it again.",
+      text: "Well what do you think.",
+      replayText: "click, if you want to watch it again.",
     },
-  ],
-};
+    ];
+    };
